@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TCC.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    
+<div id= "cadastro">
+
+    <form action="cadastro.php" method="POST">
+
+        <h1>Cadastrar</h1>
+            <input class="campo" type="text" id="nome_usuario" name="nome_usuario" placeholder="Nome Completo" maxlength="50">
+        
+            <input class="campo" type="text" id="email_usuario" name="email_usuario" placeholder="E-mail" maxlength="50">  
+        
+            <input class="campo" type="password" id="senha" name="senha" placeholder="Senha">  
+        
+            <input class="campo" type="password" id="senha" name="confirmar_senha" placeholder="Confirmar Senha">    
+        
+            <input class="campo" type="text" id="estado" name="estado" placeholder="Estado" maxlength="50">
+        
+            <input class="campo" type="text" id="cidade" name="cidade" placeholder="Cidade" maxlength="50">
+      
+            <input class="campo" type="text" id="bairro" name="bairro" placeholder="Bairro" maxlength="50">
+     
+            <input class="campo" type="text" id="rua" name="rua" placeholder="Rua" maxlength="50">
+       
+            <input class="campo" type="text" id="numero_casa" name="numero_casa" placeholder="Número" maxlength="50">
+        
+            <input class="campo" type="text" name="num_hidrometro" id="num_hidrometro" placeholder="Número do Hidrômetro" maxlength="50">
+        
+            <input class="campo" type="text" name="valor_limite" id="valor_limite" placeholder="Valor Limite" maxlength="50">
+            
+            <input class="enviar" type="submit" value="Cadastrar" name="Cadastrar">
+
+    </form>
+
+</div>
+
+</body>
+
+</html>
